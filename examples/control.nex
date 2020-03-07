@@ -1,0 +1,21 @@
+let n = 5;
+
+if (n > 1) {
+    print("n is greater than 5");
+}
+else if (n < 5) {
+    print("n is smaller than 5");
+}
+else {
+    print("in else, somehow");
+}
+
+for (let idx = 0; idx < 10; idx = idx + 1) {
+    print(idx);
+}
+
+let i = 0;
+while (i < 10) {
+    print(i);
+    i = i + 1;
+}

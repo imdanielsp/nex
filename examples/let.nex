@@ -1,0 +1,10 @@
+
+// Default initialization to `nil`
+let empty;
+print(empty);
+
+let nilValue = nil;
+print(nilValue);
+
+let num = 5;
+print(num);

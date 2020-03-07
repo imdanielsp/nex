@@ -1,0 +1,26 @@
+
+func main() {
+    print("hello world!");
+}
+
+func add(a, b) {
+    ret a + b;
+}
+
+// Functions are first-class citizens
+// This example shows working closures in the language
+func makeOffsetter(offset) {
+    let drift = offset;
+    func it(n) {
+        ret offset + n;
+    }
+
+    ret it;
+}
+
+let getOffsetFor = makeOffsetter(5);
+
+print(getOffsetFor(1)); // 6
+print(getOffsetFor(2)); // 7
+print(getOffsetFor(3)); // 8
+print(getOffsetFor(4)); // 8

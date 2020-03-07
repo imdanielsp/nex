@@ -1,0 +1,27 @@
+
+class Person {
+    let id;
+    let first;
+    let last;
+
+    // Constructor
+    func init(id, first, last) {
+        this.id = id;
+        this.first = first;
+        this.last = last;
+    }
+
+    func display() {
+        print(this.id);
+        print(this.first);
+        print(this.last);
+    }
+}
+
+func personPrinter(person) {
+    person.display();
+}
+
+let p = Person(1, "john", "smith");
+
+personPrinter(p);

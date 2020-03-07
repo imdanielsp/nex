@@ -1,0 +1,13 @@
+build/
+**/*.native
+**/*.DS_Store
+.vscode
+
+# Symlinks to build directory
+nexc
+nexc_test
+*.o
+
+# Ignore generated LLVM files
+*.ll
+*.bc
