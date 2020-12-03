@@ -1,6 +1,6 @@
 # Nex Language
 
-A dynamically typed interpreted programming language running.
+A dynamically typed interpreted programming language.
 
 Features:
 * First Class Functions
