@@ -1,6 +1,6 @@
 # Nex Language
 
-A dynamically typed interpreted programming language.
+A dynamically typed interpreted programming language running on a virtual machine (VM).
 
 Features:
 * First Class Functions
